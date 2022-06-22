@@ -2,34 +2,40 @@ html {
     scroll-behavior: smooth;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     header {
-        align-self: auto;
-        width: 50rem;
-        max-width: 350px;
+        width: 350px;
+        align-self: center;
+
     }
     nav {
         display: table;
     }
     nav.sticky {
         display: table;
-        align-self: stretch;
-        align-content: stretch;
+        align-self: center;
+        align-content: center;
         width: 30rem;
+        max-width: 40rem;
         height: 8rem;
         background-color: #FFFFFFFF;
+        margin-left: 20px;
+        margin-right: 0px;
     }
     section {
         align-self: center;
         align-content: center;
         align-items: center;
-        width: 30rem;
+        width: 25rem;
         box-sizing: content-box;
     }
     section.title {
         align-content: stretch;
         width: 200rem;
         max-width: 350px;
+        margin-left: 30rem;
+        padding-left: 100px;
+        padding-right: 155px;
     }
     section.title h1 {
         width: 16rem;
@@ -45,7 +51,31 @@ html {
     section content p {
         width: 30rem;
         align-content: center;
+        margin-left: 30px;
     }
+
+    .imgGallery1{
+        margin-left: 60px;
+    }
+
+    .imgGallery1 img{
+        display: flex;
+        justify-content: center;
+        max-width: 200px;
+        max-height: 350px;
+    }
+
+    .imgGallery2 {
+    margin-left: 100px;
+    }
+
+    .imgGallery2 img {
+        display: flex;
+        justify-content: center;
+        max-width: 200px;
+        height: 200px;
+    }
+
     footer{
         align-content: center;
         width: 30rem;
